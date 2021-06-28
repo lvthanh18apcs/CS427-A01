@@ -1,0 +1,816 @@
+fileFormatVersion: 2
+guid: 2cfbdb5e8c330c74fbeab393794ae3ff
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2569120081206026225
+    second: Botanic Panic_0
+  - first:
+      213: -7953538208446352351
+    second: Botanic Panic_1
+  - first:
+      213: 163001754916627611
+    second: Botanic Panic_2
+  - first:
+      213: -3295183973301140212
+    second: Botanic Panic_3
+  - first:
+      213: -8583339406041767511
+    second: Botanic Panic_4
+  - first:
+      213: -6420424224584579011
+    second: Botanic Panic_5
+  - first:
+      213: 1027330875162674902
+    second: Botanic Panic_6
+  - first:
+      213: -8360411188331361111
+    second: Botanic Panic_7
+  - first:
+      213: 6266429190380632252
+    second: Botanic Panic_8
+  - first:
+      213: 8060134648347888487
+    second: Botanic Panic_9
+  - first:
+      213: -6910713132489986765
+    second: Botanic Panic_10
+  - first:
+      213: -8824762740235686318
+    second: Botanic Panic_11
+  - first:
+      213: -6506207573386531002
+    second: Botanic Panic_12
+  - first:
+      213: -5397248068273695317
+    second: Botanic Panic_13
+  - first:
+      213: 2619566469222841493
+    second: Botanic Panic_14
+  - first:
+      213: -5476889628894069916
+    second: Botanic Panic_15
+  - first:
+      213: 8472279446605752574
+    second: Botanic Panic_16
+  - first:
+      213: -7954072938167302415
+    second: Botanic Panic_17
+  - first:
+      213: 2086239839020877953
+    second: Botanic Panic_18
+  - first:
+      213: 4321617244721958039
+    second: Botanic Panic_19
+  - first:
+      213: -1875335147802824412
+    second: Botanic Panic_20
+  - first:
+      213: -8558759847139958061
+    second: Botanic Panic_21
+  - first:
+      213: -5800497543695557525
+    second: Botanic Panic_22
+  - first:
+      213: -3796413518203137193
+    second: Botanic Panic_23
+  - first:
+      213: -3909068393232367654
+    second: Botanic Panic_24
+  - first:
+      213: 5462391042105721339
+    second: Botanic Panic_25
+  - first:
+      213: -5745494202513584364
+    second: Botanic Panic_26
+  - first:
+      213: 9104306463038795767
+    second: Botanic Panic_27
+  - first:
+      213: -2960059785260422686
+    second: Botanic Panic_28
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Botanic Panic_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2461
+        width: 140
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff9b912a1957a320800000000000000
+      internalID: 2569120081206026225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botanic Panic_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 2377
+        width: 294
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124fe0a932b5f9190800000000000000
+      internalID: -7953538208446352351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botanic Panic_2
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 2054
+        width: 961
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9422938b39134200800000000000000
+      internalID: 163001754916627611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botanic Panic_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1833
+        width: 959
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0543d982a72542d0800000000000000
+      internalID: -3295183973301140212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botanic Panic_4
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1658
+        width: 947
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a1a444694ad1e880800000000000000
+      internalID: -8583339406041767511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botanic Panic_5
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 1576
+        width: 973
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38c2524f2216e6a0800000000000000
+      internalID: -6420424224584579011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botanic Panic_6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1537
+        width: 343
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d6ccd8ecffc14e00800000000000000
+      internalID: 1027330875162674902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botanic Panic_7
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1396
+        width: 475
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9acce4fc15ad9fb80800000000000000
+      internalID: -8360411188331361111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botanic Panic_8
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1396
+        width: 293
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8b6cec524d6f650800000000000000
+      internalID: 6266429190380632252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botanic Panic_9
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 1255
+        width: 1002
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b089c12c95bdf60800000000000000
+      internalID: 8060134648347888487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botanic Panic_10
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1109
+        width: 942
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33dae4145073810a0800000000000000
+      internalID: -6910713132489986765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botanic Panic_11
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1236
+        width: 472
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e26291b05288580800000000000000
+      internalID: -8824762740235686318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botanic Panic_12
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 773
+        width: 408
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64fe651feae45b5a0800000000000000
+      internalID: -6506207573386531002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botanic Panic_13
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 917
+        width: 113
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba512ed4a7f1915b0800000000000000
+      internalID: -5397248068273695317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botanic Panic_14
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 756
+        width: 366
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c3d8f13d19a5420800000000000000
+      internalID: 2619566469222841493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botanic Panic_15
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 930
+        width: 200
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b7fbb76ed2ef3b0800000000000000
+      internalID: -5476889628894069916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botanic Panic_16
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 887
+        width: 941
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef867c4c445939570800000000000000
+      internalID: 8472279446605752574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botanic Panic_17
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 885
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f68df22ec47d9190800000000000000
+      internalID: -7954072938167302415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botanic Panic_18
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 885
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1888b198410d3fc10800000000000000
+      internalID: 2086239839020877953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botanic Panic_19
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 885
+        width: 26
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ccad6bcf779fb30800000000000000
+      internalID: 4321617244721958039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botanic Panic_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 351
+        width: 1022
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42178687e9879f5e0800000000000000
+      internalID: -1875335147802824412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botanic Panic_21
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 149
+        width: 437
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d2a859e34d293980800000000000000
+      internalID: -8558759847139958061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botanic Panic_22
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 160
+        width: 276
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c1083673e708fa0800000000000000
+      internalID: -5800497543695557525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botanic Panic_23
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 95
+        width: 1278
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753d20bf40e605bc0800000000000000
+      internalID: -3796413518203137193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botanic Panic_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5
+        width: 157
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf7daae10330c9c0800000000000000
+      internalID: -3909068393232367654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botanic Panic_25
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 7
+        width: 129
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf1ccf836bf4ecb40800000000000000
+      internalID: 5462391042105721339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botanic Panic_26
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 20
+        width: 223
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f8c18b677e340b0800000000000000
+      internalID: -5745494202513584364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botanic Panic_27
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 40
+        width: 137
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff68bfcd7ef85e70800000000000000
+      internalID: 9104306463038795767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Botanic Panic_28
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 17
+        width: 109
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e922a1fe41cbe6d0800000000000000
+      internalID: -2960059785260422686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
