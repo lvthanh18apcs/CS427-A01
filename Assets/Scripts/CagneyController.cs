@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,12 +7,12 @@ public class CagneyController : MonoBehaviour
 {
     // Start is called before the first frame update
     public int isMad = 0;
-    public int health = 100;
+    int health = 20;
     public Animator anim;
     int now, prev;
     void Start()
     {
-        prev = System.DateTime.Now.Second;
+        prev = DateTime.Now.Second;
         anim = GetComponent<Animator>();
     }
 
@@ -23,16 +24,30 @@ public class CagneyController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        now = System.DateTime.Now.Second;
+        now = DateTime.Now.Second;
         if (now != prev)
         {
             prev = now;
             --health;
-            if (health % 5 == 0)
+            if (health == 0)
+            {
+                anim.SetBool("isDead", true);
+            }
+            else if (health % 7 == 0)
             {
                 isMad = 1;
                 anim.SetBool("isMad", true);
             }
         }
+    }
+
+    private void OnFinish()
+    {
+        anim.SetBool("isFinish", false);
+    }
+
+    private void Die()
+    {
+        Destroy(gameObject);
     }
 }
