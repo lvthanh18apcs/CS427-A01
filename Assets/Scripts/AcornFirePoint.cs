@@ -33,30 +33,30 @@ public class AcornFirePoint : MonoBehaviour
             isSpawned = false;
             prev = now;
         }
-        if (GetComponent<CagneyController>().isMad == 1)
+        if (GetComponent<CagneyController>().isMad)
         {
             start = DateTime.Now.Second;
             isCreating = true;
-            GetComponent<CagneyController>().isMad = 0;
+            GetComponent<CagneyController>().isMad = false;
             middle = firePoint.position;
             top = middle; top.y += 1;
             bot = middle; bot.y -= 1;
         }
-        if (DateTime.Now.Second == start + 1 && canSpawn && !isSpawned && isCreating)
+        if (DateTime.Now.Second == (start + 1)%60 && canSpawn && !isSpawned && isCreating)
         {
             Acorn tmp = (Acorn)topcorn.GetComponent(typeof(Acorn));
             tmp.Shoot();
             topcorn = null;
             isSpawned = true;
         }
-        else if (DateTime.Now.Second == start + 2 && canSpawn && !isSpawned && isCreating)
+        else if (DateTime.Now.Second == (start + 2)%60 && canSpawn && !isSpawned && isCreating)
         {
             Acorn tmp = (Acorn)midcorn.GetComponent(typeof(Acorn));
             tmp.Shoot();
             midcorn = null;
             isSpawned = true;
         }
-        else if (DateTime.Now.Second == start + 3 && canSpawn && !isSpawned && isCreating)
+        else if (DateTime.Now.Second == (start + 3)%60 && canSpawn && !isSpawned && isCreating)
         {
             Acorn tmp = (Acorn)botcorn.GetComponent(typeof(Acorn));
             tmp.Shoot();

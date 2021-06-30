@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Acorn : MonoBehaviour
 {
+    Vector2 velo;
+    public int fireSpeed = 3;
+
     public Rigidbody2D rb;
     public GameObject player;
     void Start()
@@ -21,7 +24,22 @@ public class Acorn : MonoBehaviour
     {
         Vector3 target = player.transform.position;
         Vector3 cur = rb.position;
-        rb.velocity = new Vector2(target.x - cur.x, target.y - cur.y);
+        velo.x = target.x - cur.x;
+        velo.y = target.y - cur.y;
+        if (velo.x == 0)
+            velo.y = fireSpeed;
+        else if (velo.y == 0)
+            velo.x = fireSpeed;
+        else
+        {
+            float fx = fireSpeed / velo.x, fy = fireSpeed / velo.y;
+            if (fx > fy)
+                fx = fy;
+            if (fx < 0) fx *= -1;
+            velo.x *= fx;
+            velo.y *= fx;
+        }
+        rb.velocity = velo;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

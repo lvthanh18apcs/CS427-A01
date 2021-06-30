@@ -6,7 +6,7 @@ using UnityEngine;
 public class CagneyController : MonoBehaviour
 {
     // Start is called before the first frame update
-    public int isMad = 0;
+    public bool isMad = false;
     int health = 20;
     public Animator anim;
     int now, prev;
@@ -35,7 +35,7 @@ public class CagneyController : MonoBehaviour
             }
             else if (health % 7 == 0)
             {
-                isMad = 1;
+                isMad = true;
                 anim.SetBool("isMad", true);
             }
         }
