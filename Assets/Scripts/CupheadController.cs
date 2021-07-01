@@ -49,17 +49,25 @@ public class CupheadController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        isColliding = true;
-        isFlying = false;
+        //if (collision.gameObject.name == "Cagney")
+        //    Destroy(gameObject);
+        if (collision.gameObject.name == "Tilemap")
+        {
+            isColliding = true;
+            isFlying = false;
+        }
     }
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-        isColliding = false;
+        if (collision.gameObject.name == "Tilemap")
+            isColliding = false;
     }
 
     private void FixedUpdate()
     {
+        if (gameObject == null)
+            return;
         Quaternion flip = transform.rotation;
         if (curMoveSpeed != 0 && isColliding)
         {

@@ -18,13 +18,17 @@ public class Acorn : MonoBehaviour
     private void Update()
     {
         Vector3 pos = transform.position;
-        if (pos.x >= 50 || pos.x <= -50 || pos.y >= 50 || pos.x <= -50)
+        if ((pos.x >= 50 || pos.x <= -50 || pos.y >= 50 || pos.x <= -50) && gameObject != null)
             Destroy(gameObject);
     }
 
     public void Shoot()
     {
-        Vector3 target = player.transform.position;
+        Vector3 target;
+        if (player == null)
+            target = new Vector3(-1, -1,0);
+        else
+            target = player.transform.position;
         Vector3 cur = rb.position;
         velo.x = target.x - cur.x;
         velo.y = target.y - cur.y;
@@ -34,6 +38,8 @@ public class Acorn : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (player == null)
+            return;
         if (collision.name == player.name)
         {
             Destroy(gameObject);
