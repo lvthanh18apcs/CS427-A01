@@ -16,6 +16,10 @@ public class CupheadController : MonoBehaviour
         pBody = GetComponent<Rigidbody2D>();
         pAnim = GetComponent<Animator>();
     }
+    public void FinishIntro()
+    {
+        pAnim.SetBool("TrueDummy", true);
+    }
 
     // Update is called once per frame
     void Update()
@@ -33,15 +37,14 @@ public class CupheadController : MonoBehaviour
         {
             isDodging = true;
         }
-        if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
         {
             curMoveSpeed = -moveSpeed;
         }
-        else if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
+        else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
         {
             curMoveSpeed = moveSpeed;
         }
-
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

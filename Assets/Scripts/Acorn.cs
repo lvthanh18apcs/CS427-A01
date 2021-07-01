@@ -17,7 +17,9 @@ public class Acorn : MonoBehaviour
 
     private void Update()
     {
-        
+        Vector3 pos = transform.position;
+        if (pos.x >= 50 || pos.x <= -50 || pos.y >= 50 || pos.x <= -50)
+            Destroy(gameObject);
     }
 
     public void Shoot()
@@ -26,19 +28,7 @@ public class Acorn : MonoBehaviour
         Vector3 cur = rb.position;
         velo.x = target.x - cur.x;
         velo.y = target.y - cur.y;
-        if (velo.x == 0)
-            velo.y = fireSpeed;
-        else if (velo.y == 0)
-            velo.x = fireSpeed;
-        else
-        {
-            float fx = fireSpeed / velo.x, fy = fireSpeed / velo.y;
-            if (fx > fy)
-                fx = fy;
-            if (fx < 0) fx *= -1;
-            velo.x *= fx;
-            velo.y *= fx;
-        }
+        velo.x *= 0.5f; velo.y *= 0.5f;
         rb.velocity = velo;
     }
 
@@ -47,6 +37,7 @@ public class Acorn : MonoBehaviour
         if (collision.name == player.name)
         {
             Destroy(gameObject);
+            Destroy(player);
         }
     }
 }

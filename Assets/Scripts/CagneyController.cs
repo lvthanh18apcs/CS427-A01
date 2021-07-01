@@ -7,7 +7,7 @@ public class CagneyController : MonoBehaviour
 {
     // Start is called before the first frame update
     public bool isMad = false;
-    int health = 20;
+    int health = int.MaxValue;
     public Animator anim;
     int now, prev;
     void Start()
@@ -33,7 +33,7 @@ public class CagneyController : MonoBehaviour
             {
                 anim.SetBool("isDead", true);
             }
-            else if (health % 7 == 0)
+            else if (health % 15 == 0)
             {
                 isMad = true;
                 anim.SetBool("isMad", true);
